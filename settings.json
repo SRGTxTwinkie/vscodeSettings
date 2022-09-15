@@ -1,0 +1,129 @@
+{
+  // Other
+  "window.zoomLevel": 1,
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "svelte.enable-ts-plugin": true,
+  "explorer.compactFolders": false,
+
+  "autoDocstring.docstringFormat": "sphinx",
+
+  // /Other
+
+  // Editor
+  "explorer.confirmDelete": false,
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.codeLensFontFamily": "Fira Code",
+  "editor.rulers": [80, 120],
+
+  // /Editor
+
+  // Vim
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["w"],
+      "after": ["<leader>", "w"]
+    },
+    {
+      "before": ["b"],
+      "after": ["<leader>", "b"]
+    },
+    {
+      "before": ["f"],
+      "after": ["<leader>", "<leader>", "f"]
+    },
+    {
+      "before": ["F"],
+      "after": ["<leader>", "<leader>", "F"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["w"],
+      "after": ["<leader>", "w"]
+    },
+    {
+      "before": ["b"],
+      "after": ["<leader>", "b"]
+    },
+    {
+      "before": ["f"],
+      "after": ["<leader>", "<leader>", "f"]
+    },
+    {
+      "before": ["F"],
+      "after": ["<leader>", "<leader>", "F"]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    {
+      "before": ["w"],
+      "after": ["<leader>", "w"]
+    },
+    {
+      "before": ["b"],
+      "after": ["<leader>", "b"]
+    },
+    {
+      "before": ["f"],
+      "after": ["<leader>", "<leader>", "f"]
+    },
+    {
+      "before": ["F"],
+      "after": ["<leader>", "<leader>", "F"]
+    }
+  ],
+
+  "vim.leader": "<space>",
+
+  "vim.replaceWithRegister": true,
+  "vim.gdefault": true,
+  "vim.highlightedyank.enable": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+
+  "vim.highlightedyank.textColor": "Yellow",
+  "vim.easymotionKeys": "asdf",
+  // /Vim
+
+  // Lang Specific
+  "files.associations": {
+    "*.html": "html",
+    "*.module.css": "css"
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css",
+    "javascript": "javascriptreact"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // /Lang Specific
+
+  // TabNine
+  "tabnine.experimentalAutoImports": true,
+  "workbench.startupEditor": "none"
+
+  // /TabNine
+}
